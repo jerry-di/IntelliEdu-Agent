@@ -1,0 +1,72 @@
+# Environment & Secrets
+.env.local
+.env.production
+*.env
+!example.env
+!*.env.example
+
+# Local models (downloaded separately)
+models/
+
+# Frontend dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Logs
+*.log
+logs/
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Milvus
+milvus_data/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Deprecated / scratch code (not part of the shipped project)
+frontend1/
+dm/
+transformer/
+scripts/manual_tests/
+
+# Private course materials / sample answers
+sample/
+*.docx
+
+# Scratch test scripts at repo root
+/test*.py
+scripts/testknowledge.py
