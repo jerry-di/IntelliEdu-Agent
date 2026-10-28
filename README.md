@@ -265,4 +265,4 @@ python scripts/verify_env.py
 
 ---
 
-**EduAgent** — 让 AI 助力教学场景智能化升级
+**IntelliEdu** — 让 AI 助力教学场景智能化升级
